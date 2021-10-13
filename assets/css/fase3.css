@@ -47,5 +47,13 @@ h2 {
     flex-direction: column;
 }
 
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-container section {
+    flex: 2; 
+  }
+
 
 
