@@ -1,0 +1,64 @@
+/* 
+*{
+    margin: 0px;
+    padding: 0px;
+} */
+
+body {
+    margin: 0;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.h4{
+    font-size: 1.5rem;
+}
+
+.container-fase-3{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.h2,
+h2 {
+    font-size: calc(1.325rem + 0.9vw);
+}
+
+.container-fase-3-autor{
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+  }
+  
+.flex-container section {
+   flex: 2; 
+}
+
+
+.texto-centrado-fase-3{
+  text-align: center !important;
+}
+
+
+
